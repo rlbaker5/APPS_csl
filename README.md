@@ -17,10 +17,12 @@ csl: applications-in-plant-sciences.csl
 ---
 ```
 
-Each reference in your "references.bib" file should start with a unique identifier: "@article{Baker2023," To insert the reference in your text, add the unique identifier in square brackets: "[@Baker2023]". To add a formatted references to your rendered document, add the following code:
+Each reference in your "references.bib" file should start with a unique identifier, e.g: "@article{Baker2023,". To insert the reference in your text, add the unique identifier in square brackets: "[@Baker2023]". To add a formatted references to your rendered document, add the following code:
 ```
 ::: {#refs}
 :::
 ```
-Render you .qmd to .docx and watch the magic!
+For more complicated in-text references (multiple authors, suppress author, add text inside of parentheses, etc), see the [quarto guide on footnotes and citations](https://quarto.org/docs/authoring/footnotes-and-citations.html#sec-citations).
+
+Render your .qmd to .docx and watch the magic!
 
